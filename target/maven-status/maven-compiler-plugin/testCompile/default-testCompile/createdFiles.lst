@@ -1,3 +1,4 @@
 demoapp\ServiceTest.class
+demoapp\service\PalindromeServiceTest.class
 demoapp\MockMvcTest.class
 demoapp\MockServiceTest.class
