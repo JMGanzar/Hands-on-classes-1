@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Result</title>
+</head>
+<body>
+<h1 th:if="${isPalindrome}" th:text="'🎉 ' + ${originalWord} + ' is a palindrome!'"></h1>
+<h1 th:unless="${isPalindrome}" th:text="'❌ ' + ${originalWord} + ' is NOT a palindrome!'"></h1>
+<a href="/palindrome">Check another word</a>
+</body>
+</html>
