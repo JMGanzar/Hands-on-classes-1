@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="demoapp.service.PalindromeServiceTest" time="0.929" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="demoapp.controller.PalindromeControllerTest" time="6.146" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testValidPalindrome" classname="demoapp.service.PalindromeServiceTest" time="0.017"/>
-  <testcase name="testEmptyString" classname="demoapp.service.PalindromeServiceTest" time="0.003"/>
-  <testcase name="testInvalidPalindrome" classname="demoapp.service.PalindromeServiceTest" time="0.002"/>
+  <testcase name="testGetForm" classname="demoapp.controller.PalindromeControllerTest" time="1.244"/>
+  <testcase name="testValidPalindromeSubmission" classname="demoapp.controller.PalindromeControllerTest" time="0.099"/>
+  <testcase name="testInvalidSubmission" classname="demoapp.controller.PalindromeControllerTest" time="0.017"/>
 </testsuite>
