@@ -31,10 +31,10 @@ public class MockMvcTest {
     // Podemos hacer también una petición POST y pasar los datos
     // del formulario con el método .param
     @Test
-    public void postShoudReturnCorrectResponse() throws Exception {
+    public void postShouldReturnCorrectResponse() throws Exception {
         this.mockMvc.perform(post("/saludoform")
-                .param("nombre", "Juan"))
+                .param("nombre", "Jose Manuel Gandia"))
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("Hola Juan")));
+                .andExpect(content().string(containsString("Hola Jose Manuel Gandia")));
     }
 }

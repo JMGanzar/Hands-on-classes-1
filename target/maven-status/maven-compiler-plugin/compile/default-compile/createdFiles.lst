@@ -4,4 +4,5 @@ demoapp\service\SaludoService.class
 demoapp\controller\SaludoControllerForm.class
 demoapp\Application.class
 demoapp\controller\UserData.class
+demoapp\service\PalindromeService.class
 demoapp\controller\HomeController.class

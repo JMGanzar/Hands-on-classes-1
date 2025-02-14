@@ -30,10 +30,10 @@ public class MockServiceTest {
     public void greetingShouldReturnMessageFromService() throws Exception {
 
         // Y especificar lo que debe devolver una llamada a uno de sus métodos
-        when(service.saluda("Juan")).thenReturn("Hola Mock Juan");
+        when(service.saluda("Jose Manuel Gandia")).thenReturn("Hola Mock Jose Manuel Gandia");
 
-        this.mockMvc.perform(get("/saludo/Juan"))
+        this.mockMvc.perform(get("/saludo/Jose Manuel Gandia"))
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("Hola Mock Juan")));
+                .andExpect(content().string(containsString("Hola Mock Jose Manuel Gandia")));
     }
 }
