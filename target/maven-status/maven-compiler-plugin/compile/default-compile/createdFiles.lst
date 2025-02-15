@@ -2,10 +2,12 @@ demoapp\controller\SaludoControllerPlantilla.class
 demoapp\service\SaludoService.class
 demoapp\controller\SaludoControllerForm.class
 demoapp\Application.class
+demoapp\model\EvenNumberForm.class
 demoapp\controller\UserData.class
 demoapp\service\EvenNumberService.class
 demoapp\controller\SaludoController.class
 demoapp\controller\PalindromeController.class
 demoapp\model\PalindromeForm.class
 demoapp\service\PalindromeService.class
+demoapp\controller\EvenNumberController.class
 demoapp\controller\HomeController.class

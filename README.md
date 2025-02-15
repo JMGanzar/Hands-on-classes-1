@@ -34,6 +34,7 @@ Una vez lanzada la aplicación puedes abrir un navegador y probar los distintos 
 También puedes probar las funcionalidades simples que se han añadido a la aplicación en el transcurso de la realización de la práctica:
 
 - Palíndromos: http://localhost:8080/palindrome
+- Números pares o impares: http://localhost:8080/even
 
 Sigue este enlace para obtener acceso a la vista pública de la imagen en Docker Hub:
 - https://hub.docker.com/r/jmganzar/spring-boot-demoapp
