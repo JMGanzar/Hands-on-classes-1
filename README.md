@@ -35,6 +35,7 @@ También puedes probar las funcionalidades simples que se han añadido a la apli
 
 - Palíndromos: http://localhost:8080/palindrome
 - Números pares o impares: http://localhost:8080/even
+- Comprobador de cuadrados: http://localhost:8080/square
 
 Sigue este enlace para obtener acceso a la vista pública de la imagen en Docker Hub:
 - https://hub.docker.com/r/jmganzar/spring-boot-demoapp
