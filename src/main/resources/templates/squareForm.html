@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Square Checker</title>
+</head>
+<body>
+<h1>Check if a Number is a Square</h1>
+<form th:action="@{/square}" th:object="${squareForm}" method="post">
+  <div>
+    <label>Base:</label>
+    <input type="number" th:field="*{base}">
+    <span th:if="${#fields.hasErrors('base')}" th:errors="*{base}"></span>
+  </div>
+  <div>
+    <label>Number to check:</label>
+    <input type="number" th:field="*{numberToCheck}">
+    <span th:if="${#fields.hasErrors('numberToCheck')}" th:errors="*{numberToCheck}"></span>
+  </div>
+  <button type="submit">Check</button>
+</form>
+</body>
+</html>
