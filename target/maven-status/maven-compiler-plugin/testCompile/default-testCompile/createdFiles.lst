@@ -2,6 +2,7 @@ demoapp\ServiceTest.class
 demoapp\service\PalindromeServiceTest.class
 demoapp\service\CalculatorServiceTest.class
 demoapp\service\EvenNumberServiceTest.class
+demoapp\controller\CalculatorControllerTest.class
 demoapp\MockMvcTest.class
 demoapp\controller\EvenNumberControllerTest.class
 demoapp\controller\PalindromeControllerTest.class

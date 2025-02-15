@@ -13,5 +13,7 @@ demoapp\service\SaludoService.class
 demoapp\controller\SquareController.class
 demoapp\controller\UserData.class
 demoapp\model\SquareForm.class
+demoapp\controller\CalculatorController.class
 demoapp\model\PalindromeForm.class
+demoapp\model\CalculatorForm.class
 demoapp\service\SquareService.class

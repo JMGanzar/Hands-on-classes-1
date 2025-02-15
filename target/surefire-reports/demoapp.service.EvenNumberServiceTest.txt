@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: demoapp.service.EvenNumberServiceTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 s - in demoapp.service.EvenNumberServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in demoapp.service.EvenNumberServiceTest
