@@ -3,6 +3,7 @@ demoapp\service\SaludoService.class
 demoapp\controller\SaludoControllerForm.class
 demoapp\Application.class
 demoapp\controller\UserData.class
+demoapp\service\EvenNumberService.class
 demoapp\controller\SaludoController.class
 demoapp\controller\PalindromeController.class
 demoapp\model\PalindromeForm.class
