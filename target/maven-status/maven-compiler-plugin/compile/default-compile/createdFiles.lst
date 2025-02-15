@@ -11,3 +11,4 @@ demoapp\model\PalindromeForm.class
 demoapp\service\PalindromeService.class
 demoapp\controller\EvenNumberController.class
 demoapp\controller\HomeController.class
+demoapp\service\SquareService.class

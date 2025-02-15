@@ -4,4 +4,5 @@ demoapp\service\EvenNumberServiceTest.class
 demoapp\MockMvcTest.class
 demoapp\controller\EvenNumberControllerTest.class
 demoapp\controller\PalindromeControllerTest.class
+demoapp\service\SquareServiceTest.class
 demoapp\MockServiceTest.class
