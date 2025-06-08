@@ -55,5 +55,5 @@ docker pull jmganzar/spring-boot-demoapp:final
 ```
 **Ejecutar el contenedor** (exponiendo el puerto 8080 de Spring Boot):
 ```
-docker run -d -p 8080:8080 --name spring-app jmganzar/spring-boot-demoapp:final
+docker run -p 8080:8080 jmganzar/spring-boot-demoapp:final
 ```
