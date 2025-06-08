@@ -46,3 +46,14 @@
 FROM openjdk:17-jdk-alpine
 COPY target/*.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
+```
+
+### Docker Commands
+**Descargar la imagen** desde Docker Hub (tag `final`):
+```
+docker pull jmganzar/spring-boot-demoapp:final
+```
+**Ejecutar el contenedor** (exponiendo el puerto 8080 de Spring Boot):
+```
+docker run -d -p 8080:8080 --name spring-app jmganzar/spring-boot-demoapp:final
+```
